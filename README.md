@@ -1,7 +1,7 @@
 # OneMeSDK
 This package contains the dependencies and documentation to add OneMe functionality to your node.js backend.
 
-# Instalation 
+# Installation 
 Currently, only node package manager is supported. CDN support will be coming soon.
 ```
 npm install OneMeSDK --save
