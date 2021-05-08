@@ -3,7 +3,9 @@ This package contains the dependencies and documentation to add OneMe functional
 
 # Instalation 
 Currently, only node package manager is supported. CDN support will be coming soon.
-`npm install OneMeSDK --save`
+```
+npm install OneMeSDK --save
+```
 
 Then....
 # Setup  
@@ -45,17 +47,21 @@ const OneMeConfig = {
     "storageBucket": "onemeapp-c7476.appspot.com",
     "messagingSenderId": "824485992095"
 }
+
+//create a OneMe class instance used to access sdk methods
 const oneMe = new OneMe(OneMeConfig);
-//oneMe object methods can now be accessed to query the OneMe API 
-// the following methods are defined for the OneMe Object 
+```
+
+# SDK Functions
+The following methods are defined for the OneMe Object 
+```
 oneMe.inviteUser(userOneMeID);
 oneMe.userIsLinked(userOneMeID);
 oneMe.fetchUserInfo(userOneMeID);
 oneMe.fetchUserImages(userOneMeID);
 ```
-
-
-
+# inviteUser()
+\t temp
 // inviteUser(uid) function purpose:
 // Invite a user to share their information with your business
 // Until a user accepts the invitation, your business will not be able to access the user's information
