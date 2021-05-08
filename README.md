@@ -27,8 +27,8 @@ const OneMeConfig = {
     "messagingSenderId": "824485992095"
 }
 ```
-#### Initialize the "buidPassword" and "buid" feilds using the values unique to your business account.
-### Their values can be found on the main page of your business portal.
+### Initialize the "buidPassword" and "buid" feilds using the values unique to your business account.
+#### Their values can be found on the main page of your business portal.
 
 # Usage
 After completing setup:
@@ -60,9 +60,47 @@ oneMe.userIsLinked(userOneMeID);
 oneMe.fetchUserInfo(userOneMeID);
 oneMe.fetchUserImages(userOneMeID);
 ```
-## inviteUser()
-\t temp
-// inviteUser(uid) function purpose:
-// Invite a user to share their information with your business
-// Until a user accepts the invitation, your business will not be able to access the user's information
-// ask the user for their oneMeID and pass it to the inviteUserFunction
+## inviteUser(userOneMeID);
+### purpose:
+* Invite a user to share their information with your business
+* Until a user accepts the invitation, your business will not be able to access the user's information
+### parameters: 
+* string representing the user's OneMe ID 
+* ask the user for their oneMeID and pass it to the inviteUserFunction
+### return value:
+* Promise<database.functions.HttpsCallableResult | error>
+
+## userIsLinked(userOneMeID);
+### purpose:
+* check if you have access to a user's information
+* confirm that a user has accepted your invitation
+### parameters:
+* string representing the user's OneMe ID 
+* ask the user for their oneMeID and pass it to the userIsLinked funciton
+### return value:
+* Promise<database.functions.HttpsCallableResult | error>
+
+## fetchUserInfo(userOneMeID);
+### purpose:
+* Fetch the OneMe verified information about a given user
+* Use this information to verify/instantiate a user's data 
+### parameters:
+* string representing the user's OneMe ID 
+* ask the user for their oneMeID and pass it to the userIsLinked funciton
+### return value:
+* Promise<database.functions.HttpsCallableResult | error>
+
+## fetchUserImages(userOneMeID);
+### purpose:
+* Fetch the OneMe verified images of the given user 
+* Use this information to verify/instantiae user provided images
+### parameters:
+* string representing the user's OneMe ID 
+* ask the user for their oneMeID and pass it to the userIsLinked funciton
+### return value:
+* Promise<database.functions.HttpsCallableResult | error>
+
+
+
+
+
