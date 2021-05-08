@@ -16,13 +16,16 @@ database.initializeApp(databaseConfig);
 
 class OneMe {
   constructor(oneMeConfig) {
+    //initialize member variables
     this.config = oneMeConfig;
     this.buid = oneMeConfig.buid;
     this.password = oneMeConfig.bidPassword;
     this.email = oneMeConfig.bidEmail;
-    // this.database.initializeApp(databaseConfig);
-    // this.databaseConfig = databaseConfig;
-    // this.database = database;
+    //set up acccess to the oneMe sdk
+    this.databaseConfig = databaseConfig;
+    database.initializeApp(databaseConfig);
+    this.database = database;
+    this.initializeOneMe(); //call the function to login business to OneMeSDK
   }
   //assume constructor has set the email and password already
   //call this to login so funciton calls can work to the database
