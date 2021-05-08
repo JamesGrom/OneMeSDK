@@ -1,0 +1,22 @@
+{
+  "name": "onemesdk1",
+  "version": "1.0.0",
+  "description": "Package that contains all functions and dependencies needed to add OneMe functionality to your node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesGrom/OneMeSDK.git"
+  },
+  "author": "James Grom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesGrom/OneMeSDK/issues"
+  },
+  "homepage": "https://github.com/JamesGrom/OneMeSDK#readme",
+  "dependencies": {
+    "firebase": "^8.5.0"
+  }
+}
