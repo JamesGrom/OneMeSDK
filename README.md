@@ -27,8 +27,8 @@ const OneMeConfig = {
     "messagingSenderId": "824485992095"
 }
 ```
-Initialize the "buidPassword" and "buid" feilds using the values unique to your business account.
-Their values can be found on the main page of your business portal.
+###### Initialize the "buidPassword" and "buid" feilds using the values unique to your business account.
+###### Their values can be found on the main page of your business portal.
 
 # Usage
 After completing setup:
@@ -60,7 +60,7 @@ oneMe.userIsLinked(userOneMeID);
 oneMe.fetchUserInfo(userOneMeID);
 oneMe.fetchUserImages(userOneMeID);
 ```
-# inviteUser()
+## inviteUser()
 \t temp
 // inviteUser(uid) function purpose:
 // Invite a user to share their information with your business
