@@ -87,6 +87,5 @@ class OneMe {
       });
   }
 }
-
 // export default OneMe;
 module.exports.OneMe = OneMe;
