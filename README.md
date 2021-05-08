@@ -27,8 +27,8 @@ const OneMeConfig = {
     "messagingSenderId": "824485992095"
 }
 ```
-###### Initialize the "buidPassword" and "buid" feilds using the values unique to your business account.
-###### Their values can be found on the main page of your business portal.
+#### Initialize the "buidPassword" and "buid" feilds using the values unique to your business account.
+### Their values can be found on the main page of your business portal.
 
 # Usage
 After completing setup:
