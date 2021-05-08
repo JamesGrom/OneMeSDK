@@ -1,6 +1,6 @@
 {
   "name": "onemesdk2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package that contains all functions and dependencies needed to add OneMe functionality to your node.js backend",
   "main": "OneMe.js",
   "scripts": {
