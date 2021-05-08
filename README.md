@@ -5,8 +5,10 @@ This package contains the dependencies and documentation to add OneMe functional
 `npm install OneMeSDK --save`
 
 Then....
+# Usage
 
-`import oneMe from 'OneMeSDK'`
+```
+import oneMe from 'OneMeSDK'
 const OneMeConfig = {
     "projectId": "onemeapp-c7476",
     "buid": BUSINESSID //RETRIEVE THIS VALUE FROM THE BUSINESS PORTAL,
@@ -17,3 +19,4 @@ const OneMeConfig = {
     "storageBucket": "onemeapp-c7476.appspot.com",
     "messagingSenderId": "824485992095"
 }
+```
