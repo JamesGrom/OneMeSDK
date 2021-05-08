@@ -2,7 +2,7 @@
 //CONFIG OBJECTS CAN BE FOUND IN YOUR DEVELOPER FILE
 
 //OneMe uses database as our cloud functions host and NOSQL database
-import database from "firebase";
+const database = require("firebase");
 // const database = require("database");
 const databaseConfig = {
   apiKey: "AIzaSyDcI6i58VyeG7Vfc97lhUhl2FbwrmKxvXA",
